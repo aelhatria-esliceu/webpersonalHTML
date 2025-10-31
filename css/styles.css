@@ -67,7 +67,22 @@ section {
     margin-bottom: 2.5rem;
     background: rgba(255, 255, 255, 0.05);
     padding: 1.25rem;
+    border-radius: 0.63rem; 
+}
+
+.section-enlaces {
+    background: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.enlaces {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding : 1.25rem;
     border-radius: 0.63rem;
+    width: 25%;
 }
 
 h2, h3 {
